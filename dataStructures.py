@@ -97,4 +97,4 @@ class History:
         ax2.set_xlabel("Episode", fontsize=25)
         ax2.set_ylabel("Average loss", fontsize=25)
         ax2.grid(True)
-        plt.savefig('History ' + datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.png')
+        plt.savefig('History_' + datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.png')
